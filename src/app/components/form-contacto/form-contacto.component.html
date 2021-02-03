@@ -1,0 +1,38 @@
+<form class="needs-validation" novalidate>
+    <div class="row">
+        <div class="col">
+            <label for="exampleFormControlInput1" class="form-label">Nombre:</label>
+            <input type="text" class="form-control" aria-label="First name" required>
+        </div>
+        <div class="col ">
+            <label for="exampleFormControlInput1 " class="form-label ">Apellido:</label>
+            <input type="text " class="form-control " aria-label="Last name" required>
+        </div>
+    </div>
+    <div class="mb-3 ">
+        <label for="exampleFormControlInput1 " class="form-label ">Email:</label>
+        <input type="email " class="form-control " id="exampleFormControlInput1 " placeholder="name@example.com " required>
+    </div>
+    <div class="mb-3 ">
+        <label for="exampleFormControlTextarea1 " class="form-label ">Comentario:</label>
+        <textarea class="form-control " id="exampleFormControlTextarea1 " rows="3 "></textarea>
+    </div>
+    <button type="button" class="btn btn-outline-danger" data-bs-toggle="modal" data-bs-target="#contacto">Enviar</button>
+</form>
+<!--Modal-->
+<div class="modal" tabindex="-1" id="contacto">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title">Gracias!</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <p>Su comentario ha sido enviado con éxito.</p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-outline-dark" data-bs-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>

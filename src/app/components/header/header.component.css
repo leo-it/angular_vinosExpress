@@ -1,0 +1,23 @@
+.search {
+    background: rgb(253, 64, 64);
+
+}
+.icono{
+    
+    color: white;
+}
+
+.searchbox{
+    border: 10ch;
+    color: rgb(253, 64, 64);
+}
+
+.nav-link a {
+    color: rgb(253, 64, 64);
+}
+
+
+.search_box{
+    border: solid 1px rgb(253, 64, 64);
+    border-radius: 5px;
+}
